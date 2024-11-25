@@ -1,0 +1,15 @@
+id = "mdsl"
+name = "mdsl"
+description = "mdsl support"
+version = "0.5.14"
+schema_version = 1
+authors = ["jumpravs <jumpravs@gmail.com>"]
+repository = "https://github.com/jumpravs/zed-mdsl"
+
+[grammars.mdsl]
+repository = "https://github.com/jumpravs/tree-sitter-mdsl"
+commit = "f493a3a5508a88e32c55dd5af39ebd7d8ba1d7a9"
+
+[language_servers.mdsl]
+name = "mdsl"
+language = "mdsl"
